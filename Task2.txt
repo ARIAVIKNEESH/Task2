@@ -1,0 +1,18 @@
+1)
+Document:
+->The document object represents the HTML document that makes up the structure and content of a web page.
+->The object of the document is specific to content of single HTML page which is in a tree structure.
+->It provides the interface to store and manipulate content in the HTML page.
+
+const myDoc= document;
+
+Window:
+->Thewindow object represents the browser window or the Tab which contains the HTML documents.
+->It acts as a global object in the browser.
+->The window object is responsible for managing the browser window and providing a global context for JavaScript code.
+
+const myWindow = window;
+
+The document object is nested within the window object. You can access the document object as window.document or simply document.
+
+const myDocument = window.document;
